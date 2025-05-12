@@ -67,7 +67,7 @@ Our best model weights can be downloaded at [this link](https://www.kaggle.com/d
 
 ### Approach
 
-![Image Description](fig/diagrams/ESBI.png) `<br>`
+![Image Description](images/ESBI.png) `<br>`
 
 This project aims to detect deepfakes using Self-Blended image (SBI) approach. The process for creating the self blended images is similar to the reference paper ([Self Blended Images](https://github.com/mapooon/SelfBlendedImages/tree/master)).
 
@@ -104,6 +104,6 @@ This repo contains code for the BI data generation pipeline from  [Face X-ray fo
 
 Just run bi_online_generation.py and you can get the following result. which is describe at Figure.5 in the paper.
 
-![1746631812262](image/README/1746631812262.jpg)
+![1746631812262](images/all_in_one.jpg)
 
 To get the whole BI dataset, you will need crop all the face and compute the landmarks as describe in the code.
